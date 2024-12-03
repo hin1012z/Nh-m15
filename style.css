@@ -1,0 +1,89 @@
+*{
+    margi: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+header{
+    background: #ff4d4d;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+header .Logo{
+    font-style: 24px;
+    font-weight: bold;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+header nav ul a{
+    color: #fff;
+    text-decoration: none;
+}
+#Hello{
+    background: url(/img/thiet-ke-quan-an-nhanh-dep-mat.webp) no-repeat center center/cover;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+#Hello .btn{
+    background: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#Menu{
+    padding: 20px;
+    text-align: center;
+}
+#Menu .menu-items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#Menu .menu-items .item{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;   
+}
+#Menu .menu-items .item img{
+    width: 100%;
+    border-radius: 5px;
+}
+.Contact form {
+    display:flex;
+    flex-direction: column;
+    gap: 10%;
+    padding: 20px;
+    min-width: 400px;
+    margin: auto;
+}
+.Contact form input,
+.Contact form textarea,
+.Contact form button{
+    width: 100%;
+    padding: 10px;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
